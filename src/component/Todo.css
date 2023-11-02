@@ -1,0 +1,31 @@
+input{
+    width: 100%;
+    padding: 10px;
+    margin-right: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#addBtn{
+    height: 40px !important;
+    width: 100px !important;
+    margin:10px;
+}
+
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Completed{
+    text-decoration: double line-through;
+    color: #e00909 !important;
+}
